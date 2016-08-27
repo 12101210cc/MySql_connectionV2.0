@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="0dp"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:weightSum="1">
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="去"
+        android:id="@+id/btn_turnback"
+        />
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="250dp"
+        android:text="三"
+        android:id="@+id/btn_function"
+        />
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="58dp"
+        android:layout_marginLeft="-350dp"
+        android:text="推薦"
+        android:id="@+id/btn_suggest"
+        />
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="58dp"
+        android:text="查詢"
+        android:id="@+id/btn_search"
+        />
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="58dp"
+        android:text="資訊"
+        android:id="@+id/btn_info"
+        />
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="58dp"
+        android:text="清單"
+        android:id="@+id/btn_list"
+        />
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="58dp"
+        android:text="使用者"
+        android:id="@+id/btn_user"
+        />
+    <RelativeLayout
+        android:layout_width="380dp"
+        android:layout_height="380dp"
+        android:layout_marginLeft="-360dp"
+        android:layout_marginTop="130dp"
+        android:id="@+id/fragment_container"
+
+        ></RelativeLayout>
+</LinearLayout>
